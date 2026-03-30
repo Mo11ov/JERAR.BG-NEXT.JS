@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 function TopBar() {
     return (
         <div
@@ -8,24 +10,19 @@ function TopBar() {
                 <div className="col-lg-6 px-5 text-start">
                     <ol className="breadcrumb mb-0">
                         <li className="breadcrumb-item">
-                            <a className="small text-light" href="#">
-                                Home
-                            </a>
+                            <Link className="small text-light" href="/about">
+                                За Нас
+                            </Link>
                         </li>
                         <li className="breadcrumb-item">
-                            <a className="small text-light" href="#">
-                                Career
-                            </a>
+                            <Link className="small text-light" href="/contact">
+                                Контакти
+                            </Link>
                         </li>
                         <li className="breadcrumb-item">
-                            <a className="small text-light" href="#">
-                                Terms
-                            </a>
-                        </li>
-                        <li className="breadcrumb-item">
-                            <a className="small text-light" href="#">
-                                Privacy
-                            </a>
+                            <Link className="small text-light" href="privacy">
+                                Политика за поверителност
+                            </Link>
                         </li>
                     </ol>
                 </div>

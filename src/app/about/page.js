@@ -1,4 +1,5 @@
 import AboutUs from "@/components/AboutUs";
+import BreadCumb from "@/components/Breadcumb";
 
 export const metadata = {
     title:
@@ -11,7 +12,10 @@ export const metadata = {
 };
 
 export default function AboutPage() {
-    return (<>
-        <AboutUs />
-    </>)
+    return (
+        <>
+            <BreadCumb page={"За Нас"} />
+            <AboutUs />
+        </>
+    )
 }
