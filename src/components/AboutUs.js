@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 function AboutUs() {
     return (
         <>
@@ -95,9 +97,9 @@ function AboutUs() {
                                         Безплатна доставка
                                     </div>
                                 </div>
-                                <a className="btn btn-primary rounded-pill py-3 px-5" href="">
+                                <Link href="/products" className="btn btn-primary rounded-pill py-3 px-5">
                                     Прочети повече
-                                </a>
+                                </Link>
                             </div>
                         </div>
                     </div>
