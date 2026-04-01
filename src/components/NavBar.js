@@ -3,6 +3,8 @@
 import { useState, useRef } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { companyData } from "@/data/companyData";
+
 
 function NavBar() {
     const pathname = usePathname();
@@ -63,7 +65,7 @@ function NavBar() {
                         </div>
                         <div className="ps-3">
                             <small className="text-primary mb-0">Телефон</small>
-                            <p className="text-light fs-5 mb-0">088 771 2704</p>
+                            <p className="text-light fs-5 mb-0">{companyData.telephone}</p>
                         </div>
                     </div>
                 </div>

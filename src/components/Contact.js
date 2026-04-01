@@ -1,3 +1,5 @@
+import { companyData } from "@/data/companyData";
+
 function Contact() {
     return (
         <>
@@ -34,7 +36,7 @@ function Contact() {
                                     href="tel:0887712704"
                                     className="btn btn-primary rounded-pill py-3 px-5 fs-5"
                                 >
-                                    088 771 2704
+                                    {companyData.telephone}
                                 </a>
                             </div>
                         </div>

@@ -12,7 +12,16 @@ function AboutUs() {
                                 <i className="fa fa-certificate fa-4x text-primary mb-4" />
                                 <p className="mb-2">Години опит</p>
                                 <h1 className="display-5 mb-0" data-toggle="counter-up">
-                                    26
+                                    25
+                                </h1>
+                            </div>
+                        </div>
+                        <div className="col-lg-3 col-md-6 wow fadeIn" data-wow-delay="0.7s">
+                            <div className="fact-item bg-light rounded text-center h-100 p-5">
+                                <i className="fa fa-handshake fa-4x text-primary mb-4" />
+                                <p className="mb-2">Клиенти</p>
+                                <h1 className="display-5 mb-0" data-toggle="counter-up">
+                                    120
                                 </h1>
                             </div>
                         </div>
@@ -30,19 +39,11 @@ function AboutUs() {
                                 <i className="fa fa-bread-slice fa-4x text-primary mb-4" />
                                 <p className="mb-2">Total Products</p>
                                 <h1 className="display-5 mb-0" data-toggle="counter-up">
-                                    135
+                                    30
                                 </h1>
                             </div>
                         </div>
-                        <div className="col-lg-3 col-md-6 wow fadeIn" data-wow-delay="0.7s">
-                            <div className="fact-item bg-light rounded text-center h-100 p-5">
-                                <i className="fa fa-cart-plus fa-4x text-primary mb-4" />
-                                <p className="mb-2">Order Everyday</p>
-                                <h1 className="display-5 mb-0" data-toggle="counter-up">
-                                    9357
-                                </h1>
-                            </div>
-                        </div>
+
                     </div>
                 </div>
             </div>

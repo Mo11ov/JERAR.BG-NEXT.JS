@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { companyData } from "@/data/companyData";
 
 function Footer() {
@@ -10,10 +11,10 @@ function Footer() {
                 <div className="container py-5">
                     <div className="row g-5">
                         <div className="col-lg-3 col-md-6">
-                            <h4 className="text-light mb-4">Office Address</h4>
+                            <h4 className="text-light mb-4">Свържете се с Нас</h4>
                             <p className="mb-2">
                                 <i className="fa fa-map-marker-alt me-3" />
-                                123 Street, New York, USA
+                                {companyData.address}
                             </p>
                             <p className="mb-2">
                                 <i className="fa fa-phone-alt me-3" />
@@ -55,43 +56,23 @@ function Footer() {
                             </div>
                         </div>
                         <div className="col-lg-3 col-md-6">
-                            <h4 className="text-light mb-4">Quick Links</h4>
-                            <a className="btn btn-link" href="">
-                                About Us
-                            </a>
-                            <a className="btn btn-link" href="">
-                                Contact Us
-                            </a>
-                            <a className="btn btn-link" href="">
-                                Our Services
-                            </a>
-                            <a className="btn btn-link" href="">
-                                Terms &amp; Condition
-                            </a>
-                            <a className="btn btn-link" href="">
-                                Support
-                            </a>
+                            <h4 className="text-light mb-4">Жерар СД</h4>
+                            <Link className="btn btn-link" href="/about">
+                                За Нас
+                            </Link>
+                            <Link className="btn btn-link" href="/contact">
+                                Контакти
+                            </Link>
+                            <Link className="btn btn-link" href="/products">
+                                Асортимент и услуги
+                            </Link>
+                            <Link className="btn btn-link" href="/privacy">
+                                Политика за поверителност
+                            </Link>
                         </div>
+
                         <div className="col-lg-3 col-md-6">
-                            <h4 className="text-light mb-4">Quick Links</h4>
-                            <a className="btn btn-link" href="">
-                                About Us
-                            </a>
-                            <a className="btn btn-link" href="">
-                                Contact Us
-                            </a>
-                            <a className="btn btn-link" href="">
-                                Our Services
-                            </a>
-                            <a className="btn btn-link" href="">
-                                Terms &amp; Condition
-                            </a>
-                            <a className="btn btn-link" href="">
-                                Support
-                            </a>
-                        </div>
-                        <div className="col-lg-3 col-md-6">
-                            <h4 className="text-light mb-4">Photo Gallery</h4>
+                            <h4 className="text-light mb-4">Галерия</h4>
                             <div className="row g-2">
                                 <div className="col-4">
                                     <img
@@ -136,6 +117,12 @@ function Footer() {
                                     />
                                 </div>
                             </div>
+                        </div>
+                        <div className="col-lg-3 col-md-6">
+                            <h4 className="text-white mb-3">Работно време</h4>
+                            <p className="mb-2">Пон–Пет: 08:00 – 17:00</p>
+                            <p className="mb-2">Събота: 10:00 – 14:00</p>
+                            <p className="mb-2">Почивен ден: Неделя</p>
                         </div>
                     </div>
                 </div>

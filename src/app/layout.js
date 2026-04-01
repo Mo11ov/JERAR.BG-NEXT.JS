@@ -3,7 +3,7 @@ import Script from 'next/script'
 import TopBar from '@/components/TopBar'
 import NavBar from '@/components/NavBar'
 import Footer from '@/components/Footer'
-// import BackToTopButton from '@/components/buttons/BackToTopButton'
+import BackToTopButton from '@/components/BackToTopButton'
 
 // Google Fonts
 const heebo = Heebo({
@@ -60,7 +60,7 @@ export default function RootLayout({ children }) {
                 <TopBar />
                 <NavBar />
                 {children}
-                {/* <BackToTopButton /> */}
+                <BackToTopButton />
                 <Footer />
 
                 {/* JavaScript Libraries */}
