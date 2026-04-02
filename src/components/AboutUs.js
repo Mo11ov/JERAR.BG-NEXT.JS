@@ -19,7 +19,7 @@ function AboutUs() {
                         <div className="col-lg-3 col-md-6 wow fadeIn" data-wow-delay="0.7s">
                             <div className="fact-item bg-light rounded text-center h-100 p-5">
                                 <i className="fa fa-handshake fa-4x text-primary mb-4" />
-                                <p className="mb-2">Клиенти</p>
+                                <p className="mb-2">Клиенти / Обекти</p>
                                 <h1 className="display-5 mb-0" data-toggle="counter-up">
                                     120
                                 </h1>

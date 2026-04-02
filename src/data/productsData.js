@@ -2,50 +2,68 @@ const products = [
     {
         name: 'Чиабата / с квас /',
         description: 'Автентична италианска чиабата с едри шупли и характерна бавна ферментация. Подходяща за панини, брускети или база за изискани топли сандвичи',
-        imageUrl: 'img/products/chiabata.jpg',
+        imageUrl: '/img/products/chiabata.jpg',
         weight: '0.110 гр.'
     },
     {
         name: 'Меча лапа',
         description: 'Традиционно хлебче с характерна продълговата форма и мека среда. Универсален избор за ежедневно зареждане на заведения за бързо хранене и столове',
-        imageUrl: 'img/products/mechalapa.jpg',
+        imageUrl: '/img/products/mechalapa.jpg',
         weight: '0.130 гр. / 0.160 гр.'
     },
     {
         name: 'Багета грахам / с квас /',
         description: 'Елегантна багета в удобен грамаж за единични порции. Комбинацията от квас и майсторско изпичане гарантира дълготрайна свежест и апетитна коричка',
-        imageUrl: 'img/products/bagetagraham.jpg',
+        imageUrl: '/img/products/bagetagraham.jpg',
         weight: '0.105 гр.'
     },
     {
         name: 'Багета бяла / с квас /',
         description: 'Елегантна багета в удобен грамаж за единични порции. Комбинацията от квас и майсторско изпичане гарантира дълготрайна свежест и апетитна коричка',
-        imageUrl: 'img/products/bagetabqla.jpg',
+        imageUrl: '/img/products/bagetabqla.jpg',
         weight: '0.100 гр.'
     },
     {
         name: 'Хлебче дълго',
         description: 'Стандартни хлебчета с изчистен вкус и продълговата форма. Лесни за подготовка и сервиране, те са базово решение за всяка професионална кухня',
-        imageUrl: 'img/products/hlebchedylgo.jpg',
+        imageUrl: '/img/products/hlebchedylgo.jpg',
         weight: '0.100 гр. / 0.140 гр.'
     },
     {
         name: 'Хлебче кръгло',
         description: 'Стандартни хлебчета с изчистен вкус и кръгла форма. Лесни за подготовка и сервиране, те са базово решение за всяка професионална кухня',
-        imageUrl: 'img/products/hlebchekraglo.jpg',
+        imageUrl: '/img/products/hlebchekraglo.jpg',
         weight: '0.100 гр.'
-    },
-    {
-        name: 'Гръцка питка',
-        description: 'Мека и еластична питка, идеална за гироси, врапове и средиземноморски специалитети. Лесна за заграване, тя остава свежа и гъвкава при работа',
-        imageUrl: 'img/products/grackapitka.jpg',
-        weight: '0.110 гр.'
     },
     {
         name: 'Хлебче бургер / сусам /',
         description: 'Класическо бургер хлебче с поръска от сусам и пухкава сърцевина. Специално разработено да запазва целостта си дори при по-сочни и обемни гарнитури',
-        imageUrl: 'img/products/burgerhlebche.jpg',
+        imageUrl: '/img/products/burgerhlebche.jpg',
         weight: '0.090 гр.'
+    },
+    {
+        name: 'питка Брьош',
+        description: 'Маслена, нежна и леко сладка структура, типична за френския брьош. Идеалният избор за гурме бургери и премиум кетъринг събития.',
+        imageUrl: '/img/products/brosch.jpg',
+        weight: '0.065 / 0.080 гр.'
+    },
+    {
+        name: 'Гръцка питка',
+        description: 'Мека и еластична питка, идеална за гироси, рапове и средиземноморски специалитети. Лесна за заграване, тя остава свежа и гъвкава при работа',
+        imageUrl: '/img/products/grackapitka.jpg',
+        weight: '0.110 гр.'
+    },
+    {
+        name: 'Блат за пица / специален /',
+        description: 'Професионална основа за пица, която спестява време в кухнята без компромис с вкуса. Гарантира хрупкав борд и перфектно изпичане при висока температура.',
+        imageUrl: '/img/products/testopizza.jpg',
+        weight: '0.200 гр.'
+    },
+    {
+        name: 'Козунак',
+        description: 'Традиционен козунак с богата, накъсана на конци структура и нежен аромат.',
+        imageUrl: '/img/products/kozunak.jpg',
+        weight: '0.600 гр.'
     },
 ];
 

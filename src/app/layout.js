@@ -18,22 +18,20 @@ const nunito = Nunito({
     variable: '--font-nunito'
 })
 
-// export const metadata = {
-//     title: 'Denas Center BG',
-//     description: 'Вашето място за красота, естетика и медецинска козметика.',
-//     verification: {
-//         google: '0ENxj6P0P6yrnGOGg5eR8GcthOd0n9iJmhKnZYmSsLw'
-//     },
-//     openGraph: {
-//         url: 'https://www.denasbg.com/',
-//         type: 'website',
-//         title: 'Денас Център',
-//         description: 'Вашето място за красота, естетика и медецинска козметика',
-//         images: ['/img/about-1.jpg'],
-//         siteName: 'Денас Център',
-//         locale: 'bg_BG',
-//     },
-// }
+export const metadata = {
+    title: 'Жерар СД - Безупречния вкус',
+    description: 'Производство на хлебни изделия за вашия бизнес',
+    
+    openGraph: {
+        url: 'https://www.jerar.bg/',
+        type: 'website',
+        title: 'Денас Център',
+        description: 'Производство на хлебни изделия за вашия бизнес',
+        images: ['/img/carousel-1.jpg'],
+        siteName: 'Жерар СД',
+        locale: 'bg_BG',
+    },
+}
 
 export default function RootLayout({ children }) {
     return (
