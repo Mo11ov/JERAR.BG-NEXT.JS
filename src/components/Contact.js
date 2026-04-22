@@ -33,7 +33,7 @@ function Contact() {
                                 <h4 className="mb-2">Телефон за поръчки</h4>
                                 <p className="text-muted mb-3">Работно време: Пон – Пет, 08:00 – 17:00</p>
                                 <a
-                                    href="tel:0887712704"
+                                    href={`tel:${companyData.telephone}`}
                                     className="btn btn-primary rounded-pill py-3 px-5 fs-5"
                                 >
                                     {companyData.telephone}

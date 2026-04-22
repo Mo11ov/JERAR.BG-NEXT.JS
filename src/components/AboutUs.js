@@ -12,16 +12,16 @@ function AboutUs() {
                                 <i className="fa fa-certificate fa-4x text-primary mb-4" />
                                 <p className="mb-2">Години опит</p>
                                 <h1 className="display-5 mb-0" data-toggle="counter-up">
-                                    25
+                                    25 +
                                 </h1>
                             </div>
                         </div>
                         <div className="col-lg-3 col-md-6 wow fadeIn" data-wow-delay="0.7s">
                             <div className="fact-item bg-light rounded text-center h-100 p-5">
                                 <i className="fa fa-handshake fa-4x text-primary mb-4" />
-                                <p className="mb-2">Клиенти / Обекти</p>
+                                <p className="mb-2">Доверени партньори</p>
                                 <h1 className="display-5 mb-0" data-toggle="counter-up">
-                                    120
+                                    120 +
                                 </h1>
                             </div>
                         </div>
@@ -37,9 +37,9 @@ function AboutUs() {
                         <div className="col-lg-3 col-md-6 wow fadeIn" data-wow-delay="0.5s">
                             <div className="fact-item bg-light rounded text-center h-100 p-5">
                                 <i className="fa fa-bread-slice fa-4x text-primary mb-4" />
-                                <p className="mb-2">Total Products</p>
+                                <p className="mb-2">Брой продукти</p>
                                 <h1 className="display-5 mb-0" data-toggle="counter-up">
-                                    30
+                                    30 +
                                 </h1>
                             </div>
                         </div>

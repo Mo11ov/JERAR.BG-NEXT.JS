@@ -18,16 +18,15 @@ function Footer() {
                             </p>
                             <p className="mb-2">
                                 <i className="fa fa-phone-alt me-3" />
-                                {companyData.telephone}
+                                <a href={`tel:${companyData.telephone}`} className="text-decoration-none text-light">
+                                    {companyData.telephone}
+                                </a>
                             </p>
                             <p className="mb-2">
                                 <i className="fa fa-envelope me-3" />
                                 {companyData.mainEmail}
                             </p>
-                            <p className="mb-2">
-                                <i className="fa fa-envelope me-3" />
-                                {companyData.secondaryEmail}
-                            </p>
+
                             <div className="d-flex pt-2">
                                 <a
                                     className="btn btn-square btn-outline-light rounded-circle me-1"

@@ -59,7 +59,8 @@ function NavBar() {
                             </Link>
                         ))}
                     </div>
-                    <div className="d-none d-lg-flex">
+                    <a href={`tel:${companyData.telephone}`}
+                        className="d-none d-lg-flex align-items-center text-decoration-none">
                         <div className="flex-shrink-0 btn-lg-square border border-light rounded-circle">
                             <i className="fa fa-phone text-primary" />
                         </div>
@@ -67,7 +68,7 @@ function NavBar() {
                             <small className="text-primary mb-0">Телефон</small>
                             <p className="text-light fs-5 mb-0">{companyData.telephone}</p>
                         </div>
-                    </div>
+                    </a>
                 </div>
             </nav>
         </>
