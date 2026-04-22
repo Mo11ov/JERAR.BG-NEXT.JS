@@ -21,13 +21,13 @@ const nunito = Nunito({
 export const metadata = {
     title: 'Жерар СД - Безупречния вкус',
     description: 'Производство на хлебни изделия за вашия бизнес',
-    
+
     openGraph: {
         url: 'https://www.jerar.bg/',
         type: 'website',
         title: 'Жерар СД - Безупречния вкус',
         description: 'Производство на хлебни изделия за вашия бизнес',
-        images: ['/img/carousel-1.jpg'],
+        images: ['https://www.jerar.bg/img/carousel-1.jpg'],
         siteName: 'Жерар СД',
         locale: 'bg_BG',
     },
