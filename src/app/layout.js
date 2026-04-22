@@ -25,7 +25,7 @@ export const metadata = {
     openGraph: {
         url: 'https://www.jerar.bg/',
         type: 'website',
-        title: 'Денас Център',
+        title: 'Жерар СД - Безупречния вкус',
         description: 'Производство на хлебни изделия за вашия бизнес',
         images: ['/img/carousel-1.jpg'],
         siteName: 'Жерар СД',
