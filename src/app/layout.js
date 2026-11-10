@@ -4,6 +4,7 @@ import TopBar from '@/components/TopBar'
 import NavBar from '@/components/NavBar'
 import Footer from '@/components/Footer'
 import BackToTopButton from '@/components/BackToTopButton'
+import WowInit from '@/components/WowInit'
 
 // Google Fonts
 const heebo = Heebo({
@@ -54,7 +55,8 @@ export default function RootLayout({ children }) {
                 <link href="/css/bootstrap.min.css" rel="stylesheet" />
                 <link href="/css/style.css" rel="stylesheet" />
             </head>
-            <body>
+            <body suppressHydrationWarning>
+                <WowInit />
                 <TopBar />
                 <NavBar />
                 {children}
@@ -70,9 +72,8 @@ export default function RootLayout({ children }) {
                     src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
                     strategy="beforeInteractive"
                 />
-                <Script src="/lib/wow/wow.min.js" strategy="lazyOnload" />
-                <Script src="/lib/easing/easing.min.js" strategy="lazyOnload" />
-                <Script src="/js/main.js" strategy="lazyOnload" />
+                <Script src="/lib/easing/easing.min.js" strategy="afterInteractive" />
+                <Script src="/js/main.js" strategy="afterInteractive" />
             </body>
         </html>
     )

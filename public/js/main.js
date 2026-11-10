@@ -12,9 +12,7 @@
     spinner();
     
     
-    // Initiate the wowjs
-    new WOW().init();
-
+    // WOW is initialized in layout.js after /lib/wow/wow.min.js loads.
 
     // Fixed Navbar
     $('.fixed-top').css('top', $('.top-bar').height());
