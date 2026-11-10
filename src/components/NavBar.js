@@ -14,6 +14,7 @@ function NavBar() {
     const navLinksBefore = [
         { name: "За Нас", href: "/about" },
         { name: "Асортимент и услуги", href: "/products" },
+        // { name: "Клиенти и партньори", href: "/clients" },
         { name: "Контакти", href: "/contact" },
     ];
 

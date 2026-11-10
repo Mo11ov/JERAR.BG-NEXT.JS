@@ -1,5 +1,8 @@
 import { companyData } from "@/data/companyData";
 
+const warehouseCoordinates = "43.2171688,27.8787881";
+const googleMapsLink = `https://www.google.com/maps/dir/?api=1&destination=${warehouseCoordinates}`;
+
 function Contact() {
     return (
         <>
@@ -59,7 +62,7 @@ function Contact() {
                                 <p className="text-muted mb-3">{companyData.address}</p>
 
                                 <a
-                                    href={`https://maps.google.com/?q=${encodeURIComponent(companyData.address)}`}
+                                    href={googleMapsLink}
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="btn btn-primary rounded-pill py-3 px-5 fs-5"
@@ -96,11 +99,11 @@ function Contact() {
                 <iframe
                     className="w-100 mb-n2"
                     style={{ height: 450 }}
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d792.6994456176357!2d27.878300273781274!3d43.217157307948284!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40a45482f2ecc0c9%3A0x28b08c963bef3236!2z0JbQtdGA0LDRgCDQldCe0J7QlA!5e0!3m2!1sbg!2sbg!4v1774872626157!5m2!1sbg!2sbg"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2907.6338387233527!2d27.878788099999994!3d43.217168799999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40a45482f2ecc0c9%3A0x28b08c963bef3236!2z0JbQtdGA0LDRgCDQodCUINCV0J7QntCU!5e0!3m2!1sbg!2sbg!4v1794327765857!5m2!1sbg!2sbg"
                     width="600"
                     height="450"
                     loading="lazy"
-                    referrerPolicy="no-referrer-when-downgrade"
+                    referrerPolicy="strict-origin-when-cross-origin"
                     frameBorder={0}
                     allowFullScreen=""
                     aria-hidden="false"
